@@ -109,3 +109,21 @@ By running these three scripts sequentially, you can process IMERG rainfall data
     Final Output: The monthly datasets are saved and logged.
 
 These scripts facilitate efficient processing and accumulation of large IMERG datasets, and the log files ensure traceability of all steps taken during processing.
+Log_2022.txt:
+
+    Finalized on July 29.
+    Contains daily files in CSV format with accumulated rainfall data for the year 2022.
+    Includes daily files in NC format with 49 timestamps for 2022.
+
+Log_2022_Daily_Acc_Rain.txt:
+
+    Details IMERG daily accumulated rainfall files (IMERG_Daily_acc_rainfall_{year}-{month}-{day}.nc) for the entire year 2022.
+    Provides accumulated rainfall data from 3 GMT to 3 GMT at all grid points.
+    Includes information on accessing and viewing accumulated precipitation values after processing all time stamps in the log file
+
+Log_2022_Monthly_Accumulated.txt:
+
+    Details the conversion of IMERG daily accumulated rainfall files (IMERG_Daily_acc_rainfall_{year}-{month}-{day}.nc) into monthly accumulated rainfall data.
+    Contains files in the format Daily_3gmt_to_3gmt_accumulated_rainfall_{year}-{month}_{1-dayend}.nc for each month of 2022.
+    Includes seven monthly NC files, each with daily accumulated rainfall data for all days in the month , accumulated precipitation is viewed in log file.
+     Daily_3gmt_to_3gmt_accumulated_rainfall_2022-10_1-31.nc
